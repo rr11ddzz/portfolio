@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio of Mohammed Siddiqui — software, web and applied AI projects." />
+    <title>Mohammed Siddiqui · Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <nav aria-label="Primary navigation">
+        <a class="brand" href="#top">MS<span>.</span></a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="https://github.com/rr11ddzz" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </nav>
+
+      <section class="hero" id="top">
+        <p class="eyebrow">Software · Web · Applied AI</p>
+        <h1>Mohammed<br /><em>Siddiqui.</em></h1>
+        <p class="intro">I build practical software projects across full-stack web development, Django applications and applied machine learning.</p>
+        <a class="button" href="#projects">View selected work <span>↓</span></a>
+      </section>
+
+      <section class="work" id="projects" aria-labelledby="work-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="work-heading">Projects that show how I build.</h2>
+        </div>
+
+        <article class="project feature">
+          <div class="project-number">01</div>
+          <div class="project-copy">
+            <p class="tag">Full-stack web application</p>
+            <h3>Timeless Archives</h3>
+            <p>A commerce-style application with authentication, product browsing, basket management, checkout integration, order handling and administration routes.</p>
+            <ul class="stack" aria-label="Technology used">
+              <li>Next.js</li><li>React</li><li>Express</li><li>MongoDB</li><li>Stripe</li>
+            </ul>
+            <a class="project-link" href="https://github.com/rr11ddzz/timeless-archives" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+          </div>
+          <div class="project-art art-commerce" aria-hidden="true">
+            <span class="browser-bar"></span><span class="art-line wide"></span><span class="art-line"></span><span class="art-grid"><i></i><i></i><i></i></span>
+          </div>
+        </article>
+
+        <article class="project reverse">
+          <div class="project-number">02</div>
+          <div class="project-copy">
+            <p class="tag">Django web application</p>
+            <h3>Equipment Booking System</h3>
+            <p>A booking and inventory application for managing equipment availability, approved access, reservations, returns, audits and reporting records.</p>
+            <ul class="stack" aria-label="Technology used">
+              <li>Python</li><li>Django</li><li>SQLite</li><li>HTML</li><li>CSS</li>
+            </ul>
+            <a class="project-link" href="https://github.com/rr11ddzz/equipment-booking-system" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+          </div>
+          <div class="project-art art-booking" aria-hidden="true">
+            <span class="browser-bar"></span><span class="calendar"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">03</div>
+          <div class="project-copy">
+            <p class="tag">Applied AI coursework</p>
+            <h3>Insurance Claims Logistic Regression</h3>
+            <p>An applied machine-learning notebook covering data preparation, train/test evaluation and logistic-regression modelling for insurance-claims classification.</p>
+            <ul class="stack" aria-label="Technology used">
+              <li>Python</li><li>Jupyter</li><li>Logistic regression</li><li>Data analysis</li>
+            </ul>
+            <a class="project-link" href="https://github.com/rr11ddzz/applied-ai-logistic-regression" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+          </div>
+          <div class="project-art art-ai" aria-hidden="true">
+            <span class="browser-bar"></span><span class="chart"><i></i><i></i><i></i><b></b></span>
+          </div>
+        </article>
+      </section>
+
+      <section class="closing">
+        <p class="eyebrow">Find the details in the code</p>
+        <h2>Built with care,<br />documented clearly.</h2>
+        <a class="button dark" href="https://github.com/rr11ddzz" target="_blank" rel="noreferrer">Explore GitHub <span>↗</span></a>
+      </section>
+    </main>
+    <footer>© <span id="year"></span> Mohammed Siddiqui</footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
