@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#projects">Skip to projects</a>
     <main>
       <nav aria-label="Primary navigation">
         <a class="brand" href="#top">MS<span>.</span></a>
@@ -37,16 +38,31 @@
           <h2 id="work-heading">Projects that show how I build.</h2>
         </div>
 
-        <article class="project feature">
+        <article class="project feature" id="timeless-archives">
           <div class="project-number">01</div>
           <div class="project-copy">
             <p class="tag">Full-stack web application</p>
             <h3>Timeless Archives</h3>
-            <p>A commerce-style application with authentication, product browsing, basket management, checkout integration, order handling and administration routes.</p>
+            <p>An academic watch-commerce project connecting a Next.js storefront to an Express API and MongoDB, with account, basket, checkout and order workflows.</p>
             <ul class="stack" aria-label="Technology used">
               <li>Next.js</li><li>React</li><li>Express</li><li>MongoDB</li><li>Stripe</li>
             </ul>
             <a class="project-link" href="https://github.com/rr11ddzz/timeless-archives" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+            <details class="case-study">
+              <summary>Explore the project</summary>
+              <h4>What it demonstrates</h4>
+              <p>The React client keeps account and basket state in a shared context. Express routes handle users, carts, payments and orders; Mongoose models define the database records.</p>
+              <h4>Follow the implementation</h4>
+              <ul>
+                <li><a href="https://github.com/rr11ddzz/timeless-archives/blob/main/frontend/context/state.js" target="_blank" rel="noreferrer">Client state and API requests</a></li>
+                <li><a href="https://github.com/rr11ddzz/timeless-archives/tree/main/backend/routes" target="_blank" rel="noreferrer">Backend routes and checkout integration</a></li>
+              </ul>
+              <h4>Original 2025 website</h4>
+              <p>The original Vercel homepage is still accessible. At the November 2026 review, the catalogue returned an error. This historical build contains sample marketing content and is not a functioning shop.</p>
+              <a class="project-link" href="https://frontendwatch-ashen.vercel.app/" target="_blank" rel="noreferrer">Open historical homepage preview ↗</a>
+              <h4>Next development steps</h4>
+              <p>Restore a test-data API, replace placeholder content and add automated checks for catalogue, account and checkout flows.</p>
+            </details>
           </div>
           <div class="project-art art-commerce" aria-hidden="true">
             <span class="browser-bar"></span><span class="art-line wide"></span><span class="art-line"></span><span class="art-grid"><i></i><i></i><i></i></span>
@@ -88,7 +104,7 @@
 
       <section class="closing">
         <p class="eyebrow">Find the details in the code</p>
-        <h2>Built with care,<br />documented clearly.</h2>
+        <h2>Explore the implementation.</h2>
         <a class="button dark" href="https://github.com/rr11ddzz" target="_blank" rel="noreferrer">Explore GitHub <span>↗</span></a>
       </section>
     </main>
