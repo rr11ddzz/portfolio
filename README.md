@@ -1,9 +1,14 @@
-# Mohammed Siddiqui — Portfolio
+# Mohammed Siddiqui — Project portfolio
 
 [Open the portfolio](https://rr11ddzz.github.io/portfolio/)
 
-Five selected projects: Timeless Archives, Equipment Booking System, Insurance Claims Logistic Regression, Networked Multiplayer Game and Virtual Machine Security Lab.
+Six detailed case studies with implementation walkthroughs, original evidence, direct source links, review findings and next steps:
 
-The site uses original project-report screenshots and notebook output. Game code and security evidence are curated in [projects](projects); the three existing application repositories are linked from the website.
+- [Timeless Archives](https://rr11ddzz.github.io/portfolio/projects/timeless-archives/)
+- [Equipment Booking System](https://rr11ddzz.github.io/portfolio/projects/equipment-booking/)
+- [Insurance Claims Analysis](https://rr11ddzz.github.io/portfolio/projects/applied-ai/)
+- [Networked Multiplayer Game](https://rr11ddzz.github.io/portfolio/projects/networked-game/)
+- [Virtual Machine Security Lab](https://rr11ddzz.github.io/portfolio/projects/security-lab/)
+- [Java Shopping Manager — supporting coursework prototype](https://rr11ddzz.github.io/portfolio/projects/java-shopping/)
 
-Static HTML and CSS, deployed with GitHub Pages. Project descriptions distinguish documented implementation from proposed improvements and historical demos.
+Static HTML, CSS and a small accessible project filter, published with GitHub Pages. Core content and all case studies are available without JavaScript. Source collections retain original implementation; review notes distinguish archived evidence from new testing.
