@@ -36,3 +36,5 @@ a:focus-visible,summary:focus-visible{outline:3px solid #527500;outline-offset:5
 .project-preview figcaption a{color:var(--ink);white-space:nowrap}
 @media(max-width:720px){.project-preview{grid-column:2;margin-top:12px}}
 @media(max-width:420px){.project-preview{grid-column:1}}
+
+.project-index{margin:28px 0 42px;padding:22px;border:1px solid #cac9c1;border-radius:4px}.project-index p{margin:0 0 16px;color:#55564e;font-size:14px}.project-index div{display:flex;flex-wrap:wrap;gap:12px 24px}.project-index a{color:var(--ink);font-size:15px;line-height:1.6}.project{scroll-margin-top:24px}

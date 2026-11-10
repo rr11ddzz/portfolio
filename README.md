@@ -1,9 +1,9 @@
 # Mohammed Siddiqui — Portfolio
 
-A responsive static portfolio site linking to selected GitHub projects:
+[Open the portfolio](https://rr11ddzz.github.io/portfolio/)
 
-- Timeless Archives — full-stack Next.js/Express application
-- Equipment Booking System — Django web application
-- Insurance Claims Logistic Regression — applied AI notebook
+Five selected projects: Timeless Archives, Equipment Booking System, Insurance Claims Logistic Regression, Networked Multiplayer Game and Virtual Machine Security Lab.
 
-Open `index.html` in a browser to preview locally. The site contains no private contact details and links only to the public project repositories.
+The site uses original project-report screenshots and notebook output. Game code and security evidence are curated in [projects](projects); the three existing application repositories are linked from the website.
+
+Static HTML and CSS, deployed with GitHub Pages. Project descriptions distinguish documented implementation from proposed improvements and historical demos.
