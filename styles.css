@@ -27,3 +27,12 @@ a:focus-visible,summary:focus-visible{outline:3px solid #527500;outline-offset:5
 @media (min-width:721px) and (max-width:1000px){main{padding:0 28px}.project{grid-template-columns:36px minmax(0,1fr) minmax(0,1fr);gap:22px}.hero{min-height:530px;padding:75px 0}.work{padding-top:80px}}
 @media (max-width:420px){.hero h1{font-size:clamp(50px,18vw,76px)}.hero{min-height:450px;padding:65px 0}.project{grid-template-columns:1fr}.project-art{grid-column:1}.project-number{padding:0}.nav-links{gap:12px}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}.button:hover{transform:none}}
+
+/* Original project evidence, shown without cropping. */
+.project-preview{margin:0;min-width:0;align-self:start}
+.project-preview>a{display:block;background:white;border:1px solid #cac9c1;border-radius:4px;overflow:hidden}
+.project-preview img{display:block;width:100%;height:auto}
+.project-preview figcaption{padding:12px 0 0;color:#55564e;font-size:13px;line-height:1.6}
+.project-preview figcaption a{color:var(--ink);white-space:nowrap}
+@media(max-width:720px){.project-preview{grid-column:2;margin-top:12px}}
+@media(max-width:420px){.project-preview{grid-column:1}}
