@@ -12,3 +12,11 @@ Six detailed case studies with implementation walkthroughs, original evidence, d
 - [Java Shopping Manager — supporting coursework prototype](https://rr11ddzz.github.io/portfolio/projects/java-shopping/)
 
 Static HTML, CSS and a small accessible project filter, published with GitHub Pages. Core content and all case studies are available without JavaScript. Source collections retain original implementation; review notes distinguish archived evidence from new testing.
+
+## Original recorded demonstrations
+
+- [Timeless Archives: original project demonstration (2:28)](https://www.youtube.com/watch?v=w-0PxvQOGpQ)
+- [Networked game: original coursework demonstration (4:17)](https://www.youtube.com/watch?v=LHpnrs5xpmw)
+- [Networked game: additional coursework walkthrough](https://www.youtube.com/watch?v=mYbmp0gq7BE)
+
+These are archived recordings, not a claim that the applications have been freshly rebuilt or their external services are currently operational. Screenshots on the case studies come from the original reports, notebook or recordings.
