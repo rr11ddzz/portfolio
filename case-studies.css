@@ -13,3 +13,11 @@ a{color:inherit} [hidden]{display:none!important} img{max-width:100%}
 
 /* Original demonstration links stay readable on narrow screens. */
 .card-actions{flex-wrap:wrap;justify-content:flex-start;gap:16px 22px}.case-actions{display:flex;flex-wrap:wrap;gap:18px 28px;line-height:1.6}.demo-chapters{display:flex;flex-wrap:wrap;gap:12px}.demo-chapters a{display:block;padding:12px 16px;border:1px solid #b9bbb0;border-radius:4px;font-size:14px;line-height:1.5;background:#e9eadd}.case-section .evidence-note{font-size:13px;color:#55564e}.demo-chapters a:hover{background:#dce7c3}
+
+/* Reserve evidence space before image decode; keep printed case studies useful. */
+.case-evidence>img,.inline-evidence img{height:auto}
+@media print{html{scroll-behavior:auto}body{background:white;color:black}main{max-width:none;padding:0}nav,.skip-link,.back-link,.toc,.filters,.case-actions,.case-layout article>.button{display:none!important}.case-hero,.portfolio-hero{padding:16px 0}.case-layout{display:block;padding:16px 0}.case-sidebar{position:static}.case-sidebar .eyebrow,.case-sidebar>p:not(.review-label){display:none}.case-hero h1{font-size:30pt}.case-lead{font-size:12pt}.case-section h2{font-size:18pt;break-after:avoid}.case-section p,.case-section li{font-size:10pt}.case-section{padding:16px 0}figure,tr{break-inside:avoid}.case-evidence>img{max-height:240px}.work-grid{display:block}.work-card{break-inside:avoid;margin:16px 0}.card-image{height:150px}.portfolio-end{display:none}a{color:black}.case-footer{font-size:9pt}}
+/* Allow wide technical tables to scroll inside their column on small phones. */
+.case-layout>*{min-width:0}.toc a{overflow-wrap:anywhere}
+@media(max-width:720px){.case-layout{grid-template-columns:minmax(0,1fr)}.toc{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:360px){.portfolio-hero h1{font-size:56px}.card-copy h3{overflow-wrap:anywhere}}
