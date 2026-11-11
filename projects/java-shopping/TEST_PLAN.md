@@ -1,4 +1,4 @@
-# Coursework test plan and source review
+# Project test plan and source review
 
 The original submitted test plan contains the following ten scenarios. These are planned checks, not a record of successful execution.
 

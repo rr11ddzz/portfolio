@@ -1,6 +1,6 @@
 # Query safety: from recommendation to executable check
 
-A November 2026 **AI-assisted companion exercise**, added after the original virtual-machine coursework. It demonstrates one mitigation discussed in the case study: separating SQL code from input values with parameter binding.
+A November 2026 **AI-assisted companion exercise**, added after the original virtual-machine project. It demonstrates one mitigation discussed in the case study: separating SQL code from input values with parameter binding.
 
 This uses Python's standard library and a temporary in-memory SQLite database containing three fictional names. It makes no network connections, accepts no target URLs and requires no credentials. It does not modify DVWA or claim a retest of the original VM environment.
 
